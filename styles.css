@@ -162,3 +162,7 @@
 .testimonial-person{border:0;padding:0;margin-top:auto;justify-content:flex-start;}
 .person-avatar{width:34px;height:34px;border:1px solid rgba(86,212,220,.2);background:#1a4057;color:var(--cyan);}
 @media(max-width:760px){.testimonial-grid{gap:10px}.testimonial-placeholder,.testimonial-placeholder:nth-child(n){min-height:0;margin:0;padding:16px;border-radius:12px}.testimonial-placeholder:nth-child(even){margin-inline-start:14px}.testimonial-placeholder>p{font-size:12px;margin-bottom:13px}.person-avatar{width:32px;height:32px}}
+
+/* Center the existing sticky-header content group on every breakpoint. */
+.header-inner{justify-content:center}
+@media(max-width:760px){.header-inner{justify-content:center}}
